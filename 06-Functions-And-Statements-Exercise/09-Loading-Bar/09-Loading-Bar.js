@@ -6,8 +6,6 @@ function solve(progress){
 
     console.log(renderProgress(progress));
     console.log(isCompleted ? 'Complete' : 'Still loading...');
-
-
 }
 
 solve(30);
